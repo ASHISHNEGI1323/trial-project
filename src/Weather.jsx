@@ -1,6 +1,4 @@
-
-
-import { Oval } from "react-loader-spinner";
+// import { Oval } from "react-loader-spinner";
 import React, { useState } from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -91,7 +89,7 @@ function GfGWeatherApp() {
         <>
           <br />
           <br />
-          <Oval type="Oval" color="black" height={100} width={100} />
+          {/* <Oval type="Oval" color="black" height={100} width={100} /> */}
         </>
       )}
       {weather.error && (
